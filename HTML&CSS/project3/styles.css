@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+}
+#navbar {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid black;
+  }
+#navbar a {
+    display: block;
+    border-top: 1px solid black;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+    height: 47px;
+}
+#navbar header {
+    padding-left: 10px;
+    display: block;
+    border-top: 0px;
+}
+#navbar h3 {
+    margin: 0,0,0,10px;
+    padding-top: 10px;
+}
+
+#main-doc * {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#main-doc code {
+    background-color: rgba(198, 198, 198, 0.4);
+}
+#main-doc {
+    max-width: 1200px;
+    margin-left: 20px;
+}

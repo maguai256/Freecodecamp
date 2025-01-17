@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px){
+    .welcome-section{
+        font-size: small;
+    }
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height:50px;
+    background-color: rgb(205, 198, 198);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.link-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 13px;
+}
+#welcome-section {
+    text-align: center;
+}
+
+.project-tile {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+#git-link {
+    padding-left: 80%;
+}
