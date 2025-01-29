@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <title>Pokémon Search App</title>
+    </head>
+
+    <body>
+        <div id="freelogo">
+            <img id="freecodecamp" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
+        </div>
+        <div id="title">
+            <h1>Pokémon Search App</h1>
+        </div>
+        <div id="screen">
+            <div id="tip">Search for Pokémon Name or ID:</div>
+            <form id="serach-form">
+                <input type="text" id="search-input" required />
+                <button id="search-button" >Search</button>
+            </form>
+            <div id="base-inf">
+                <span id="pokemon-name"></span>
+                <span id="pokemon-id"></span>
+                <br>
+                <span id="weight"></span>
+                <span id="height"></span>
+                <br>
+                <div id="sprite_container"></div>
+                <div id="types"></div>
+            </div>
+            <div id="attribute">
+                <div class="contain">
+                    <div class="text">hp:</div>
+                    <div id="hp" class="ab"></div>
+                </div>
+                <div class="contain">
+                    <div class="text">attack:</div>
+                    <div id="attack" class="ab"></div>
+                </div>
+                <div class="contain">
+                    <div class="text">defense:</div>
+                    <div id="defense" class="ab"></div>
+                </div>
+                <div class="contain">
+                    <div class="text">special-attack:</div>
+                    <div id="special-attack" class="ab"></div>
+                </div>
+                <div class="contain">
+                    <div class="text">special-defense:</div>
+                    <div id="special-defense" class="ab"></div>
+                </div>
+                <div class="contain">
+                    <div class="text">speed:</div>
+                    <div id="speed" class="ab"></div>
+                </div>
+            </div>
+
+
+        </div>
+        <script src="script.js"></script>
+    </body>

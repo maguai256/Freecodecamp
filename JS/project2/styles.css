@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(21, 2, 40);
+    text-align: center;
+}
+
+#freelogo {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#freecodecamp {
+    width: 400px;
+    height: auto;
+}
+#title h1 {
+    color: white;
+}
+#mainpart {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+#mainpart h3{
+    padding: 30px;
+}
+#mainpart button{
+    margin-top: 20px;
+    width: 400px;
+}
+
+#number{
+    width: 400px;
+    height: 50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: large;
+}
+#convert-btn {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    border: 1px solid rgb(203, 203, 68);
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+}
+#output {
+    background-color: white;
+    height: 100px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 40px;
+    color: black;
+    font-size: 30px;
+    display: none;
+}

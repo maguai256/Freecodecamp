@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(21, 2, 40);
+    text-align: center;
+}
+
+#freelogo {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#freecodecamp {
+    width: 400px;
+    height: auto;
+}
+#title h1 {
+    color: white;
+}
+
+#change-due {
+    color: white;
+    height: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: none;
+}
+
+#total {
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+    padding: 5px;
+}
+#drawer {
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: pre-wrap;
+    margin-top: 40px;
+    text-align: left;
+    padding: 5px;
+}
